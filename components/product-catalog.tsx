@@ -14,20 +14,20 @@ import ProductQuickView from "@/components/product-quick-view"
 // Datos de ejemplo (reemplazar con datos reales de la base de datos)
 const productosEjemplo = [
   {
-    id: 1,
-    nombre: "Producto Premium",
-    precio: 1200,
-    descripcion: "Producto de alta calidad con características premium",
-    imagen: "/imagenpremiur.png?height=200&width=300",
-    categoria: "Premium",
-    marca: "MarcaAA",
+    id: 1, //Codigo Pruducto
+    nombre: "Producto Premium", //  NomPruducto
+    precio: 1200, //PrecioUnitario
+    descripcion: "Producto de alta calidad con características premium", //Descripcion 
+    imagen: "/imagenpremiur.png?height=200&width=300",//imagen
+    categoria: "Premium", //F. NomCategoria
+    marca: "MarcaAA", //
   },
   {
     id: 2,
     nombre: "Producto Estándar",
     precio: 800,
     descripcion: "Producto estándar con buena relación calidad-precio",
-    imagen: "/placeholder.svg?height=200&width=300",
+    imagen: "/imagenpremiur.png?height=200&width=300",
     categoria: "Estándar",
     marca: "MarcaB",
   },
@@ -36,7 +36,7 @@ const productosEjemplo = [
     nombre: "Producto Básico",
     precio: 500,
     descripcion: "Producto básico para necesidades esenciales",
-    imagen: "/placeholder.svg?height=200&width=300",
+    imagen: "imagenpremiur.png?height=200&width=300",
     categoria: "Básico",
     marca: "MarcaC",
   },
@@ -45,7 +45,7 @@ const productosEjemplo = [
     nombre: "Producto Especial",
     precio: 1500,
     descripcion: "Producto con características especiales y únicas",
-    imagen: "/placeholder.svg?height=200&width=300",
+    imagen: "/imagenpremiur.png?height=200&width=300",
     categoria: "Especial",
     marca: "MarcaA",
   },
@@ -54,7 +54,7 @@ const productosEjemplo = [
     nombre: "Producto Económico",
     precio: 300,
     descripcion: "Producto económico para presupuestos ajustados",
-    imagen: "/placeholder.svg?height=200&width=300",
+    imagen: "/imagenpremiur.png?height=200&width=300",
     categoria: "Económico",
     marca: "MarcaD",
   },
@@ -63,7 +63,7 @@ const productosEjemplo = [
     nombre: "Producto Exclusivo",
     precio: 2000,
     descripcion: "Producto exclusivo con características premium",
-    imagen: "/placeholder.svg?height=200&width=300",
+    imagen: "/imagenpremiur.png?height=200&width=300",
     categoria: "Premium",
     marca: "MarcaB",
   },

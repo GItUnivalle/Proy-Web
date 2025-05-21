@@ -18,9 +18,9 @@ const productosEjemplo = [
     nombre: "Producto Premium",
     precio: 1200,
     descripcion: "Producto de alta calidad con características premium",
-    imagen: "/placeholder.svg?height=200&width=300",
+    imagen: "/imagenpremiur.png?height=200&width=300",
     categoria: "Premium",
-    marca: "MarcaA",
+    marca: "MarcaAA",
   },
   {
     id: 2,

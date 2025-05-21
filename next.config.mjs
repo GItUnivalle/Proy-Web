@@ -1,5 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: 'export', // <-- Esta línea es necesaria para que funcione "next export"
   eslint: {
     ignoreDuringBuilds: true,
   },
@@ -7,7 +8,7 @@ const nextConfig = {
     ignoreBuildErrors: true,
   },
   images: {
-    unoptimized: true,
+    unoptimized: true, // Necesario para que funcione con export
   },
 }
 

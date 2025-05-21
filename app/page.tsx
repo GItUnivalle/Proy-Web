@@ -17,7 +17,7 @@ export default function Home() {
       <section className="mb-10">
         <div className="flex flex-col md:flex-row justify-between items-center gap-4 mb-4">
           <div>
-            <h1 className="text-3xl font-bold tracking-tight">Catálogo de Productos de Franz G.Master</h1>
+            <h1 className="text-3xl font-bold tracking-tight">Catálogo de Productos</h1>
             <p className="text-muted-foreground mt-2">
               Explore nuestra selección de productos y haga sus reservaciones
             </p>
